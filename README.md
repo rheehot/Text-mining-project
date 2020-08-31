@@ -1,6 +1,6 @@
 ![r_1280333_3kAF2](https://user-images.githubusercontent.com/37266170/91690682-5a91fb80-eba1-11ea-970f-eb6a96ca7bfb.gif)
 
-# 주은지 [![GitHub](http://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github&link=https://github.com/junji9072)](https://github.com/junji9072) & 김수연 [![Gitlab](http://img.shields.io/badge/-Gitlab-black?style=flat-square&logo=gitlab&link=https://gitlab.com/SYEON9)](https://gitlab.com/SYEON9) 텍스트 마이닝 프로젝트
+# 주은지 [![GitHub](http://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github&link=https://github.com/junji9072)](https://github.com/junji9072) & 김수연 [![GitHub](http://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github&link=https://github.com/SYEON9)](https://github.com/SYEON9) 텍스트 마이닝 프로젝트
 > 간략하게 `프로젝트 소개 문구`를 작성 하는 곳입니다.
 
 # 🚨 주의사항 !!최종 제출 전 삭제 할 것!!
