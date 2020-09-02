@@ -22,6 +22,7 @@
 # 📚 참고 자료 !!최종 제출 전 삭제 할 것!!
 * https://opentutorials.org/course/2708 - 지옥에서 온 git  
 * https://github.com/songys/AwesomeKorean_Data - NPL을 위한 오픈 데이터 셋
+* https://itblog.lazyig.com/259 - gitlab / github repo 미러링 방법
 
 # ⚒️ 설치 하기
 > 단계별 예제를 통해서 개발 환경을 구축하는 방법을 작성해 주세요. 마지막에는 데모를 실행하는 방법을 작성해 주세요.
