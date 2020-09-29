@@ -12,10 +12,8 @@ sample = driver.find_element_by_css_selector('#speech_no_24713 > div.box-header 
 sample.send_keys('\n')
 
 #크롤링 해오기
-from bs4 import BeautifulSoup
-
 html = driver.page_source
-soup = DeautifulSoup(html, "html.parsar")
+soup = BeautifulSoup(html, "html.parsar")
 
 notices = soup.select("pop_search > div.db > div.box01")
 
