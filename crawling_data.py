@@ -44,7 +44,7 @@ for name in range(len(text_file)):
 	globals()['statement{}'.format(num)] = text_file[name]
 	num -= 1
 
-#텍스트 데이터를 텍스트 파일로 저장하기.
+#텍스트 데이터를 텍스트 파일로 저장하기
 for i in range(len(text_file)):
 	sys.stdout = open('statement{}.txt'.format(i), 'w', encoding = 'utf-8')
 	print(text_file[i])
