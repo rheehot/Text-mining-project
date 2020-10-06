@@ -38,5 +38,9 @@ def crawling():
 	return text_file
 		
 
-
+#텍스트 데이터를 각 변수에 할당하기
+num = 24713
+for name in range(len(text_file)):
+	globals()['statement{}'.format(num)] = text_file[name]
+	num -= 1
 
