@@ -11,6 +11,7 @@ driver.get('http://ssullog.joins.com/speech/speechList')
 #태그는 페이지 열 때마다 새로 설정해두어야 한다.
 sample = driver.find_element_by_css_selector('#speech_no_24713 > div.box-header > div > a')
 sample.send_keys('\n')
+time.sleep(5)
 
 #크롤링 해오기
 html = driver.page_source
