@@ -8,12 +8,21 @@ import sys
 driver = webdriver.Chrome('C:/Users/user/chromedriver')
 driver.get('http://ssullog.joins.com/speech/speechList')
 
+#원하는 데이터 개수만큼 페이지 펼치기
+tag = '//*[@id="btn_speech_more"]'.format('id')
+click = driver.find_element_by_xpath(tag) #1번 펼치기
+click.send_keys('\n')
+
+click = driver.find_element_by_xpath(tag) #1번 펼치기
+click.send_keys('\n')
+
+
 #크롤러 생성
 text_file = [] #크롤링한 텍스트 데이터 저장
 def crawling():
 	count = 24713 #태그 번호
 
-	for i in range(50):
+	for i in range(150):
 		
 		#크롤링할 페이지 들어가기
 		link = '#speech_no_{} > div.box-header > div > a'.format(count)
@@ -30,8 +39,8 @@ def crawling():
 
 
 		#페이지 나가기
-		tag = '//*[@{}="btn_layer_speechall"]'.format('id')
-		closer = driver.find_element_by_xpath(tag)
+		t = '//*[@{}="btn_layer_speechall"]'.format('id')
+		closer = driver.find_element_by_xpath(t)
 		closer.send_keys('\n')
 
 		count -= 1
@@ -39,10 +48,10 @@ def crawling():
 		
 
 #텍스트 데이터를 각 변수에 할당하기
-num = 24713
-for name in range(len(text_file)):
-	globals()['statement{}'.format(num)] = text_file[name]
-	num -= 1
+#num = 24713
+#for name in range(len(text_file)):
+#	globals()['statement{}'.format(num)] = text_file[name]
+#	num -= 1
 
 #텍스트 데이터를 텍스트 파일로 저장하기
 for i in range(len(text_file)):
